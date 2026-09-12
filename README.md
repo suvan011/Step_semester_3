@@ -2,6 +2,13 @@
 
 ## Date: 12-09-2026
 **Today's Work:**
+- Added the Week 4 Category B practice problems: Library Book Cataloguing, Payroll Batch Bonus Round, Late Fees, One-Time College Setup, Many Students, and Account Batch Payments.
+- Added the Week 4 Category B assignment problems: Hackathon Registration, Canteen Inventory Batch Restock, Parking Overstay Fine Calculator, Library Membership Card Setup, and Canteen Closing-Time Payment Dispatch.
+- Organized the Week 4 work under `feature/session_4` with separate `class_problems` and `assigment_problems` packages.
+- Created `feature/session_4` directly from `develop` as required.
+
+## Date: 12-09-2026
+**Today's Work:**
 - Added the Week 3 OOP practice problems: Placement Record, Encapsulated Mess-Card Wallet, Overloaded Constructors for a Course, Reference Copies and a Shared ID Card, and Instance vs Static Student.
 - Added the Week 3 assignment problems: Library Book Inventory, Encapsulated Payroll Account, Overloaded Constructors for an Employee, Reference Copies and a Shared Exam Hall Ticket, and Instance vs Static Employee.
 - Organized the Week 3 work under `feature/session_3` with separate `class_problems` and `assigment_problems` packages.
