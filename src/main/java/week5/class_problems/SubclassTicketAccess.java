@@ -6,8 +6,11 @@ public class SubclassTicketAccess {
         if ("public".equals(fieldModifier)) {
             return "ALLOWED";
         }
-        if ("private".equals(fieldModifier) || "default".equals(fieldModifier)) {
-            return "SAME_CLASS".equals(accessorContext) && "private".equals(fieldModifier)
+        if ("private".equals(fieldModifier)) {
+            return "SAME_CLASS".equals(accessorContext) ? "ALLOWED" : "DENIED";
+        }
+        if ("default".equals(fieldModifier)) {
+            return ("SAME_CLASS".equals(accessorContext) || "SAME_PACKAGE".equals(accessorContext))
                     ? "ALLOWED" : "DENIED";
         }
         if ("protected".equals(fieldModifier)) {
