@@ -2,6 +2,13 @@
 
 ## Date: 12-09-2026
 **Today's Work:**
+- Added the Week 6 inheritance and polymorphism practice problems: Library Membership Foundation & Batch Enrollment Validator, Three Branches of the Membership Tree, Student Discount & Fine Ledger, Weekly Circulation Report, and Membership Numbers, Renewal Codes & Nightly Circulation Audit.
+- Added the Week 6 assignment problems: Gym Membership Foundation & Batch Trial Sign-up Validator, Three Tiers of Gym Membership, Premium Loyalty Discount & Late-Fee Ledger, Monthly Attendance Announcer, and Membership Numbers, Referral Codes & Weekly Check-in Settlement.
+- Organized the Week 6 work under `feature/session_6` with separate `class_problems` and `assigment_problems` packages.
+- Created `feature/session_6` directly from `develop` as required.
+
+## Date: 12-09-2026
+**Today's Work:**
 - Added the Week 5 access-modifier and encapsulation practice problems: Movie Ticket Field Visibility Checker, Subclass Ticket Access, Seat Booking Encapsulation Guard, MovieBookingProfile JavaBean & OTP Property, and Immutable Booking Receipt & Nightly Settlement.
 - Added the Week 5 assignment problems: Membership Field Reach Checker, Reference Desk Subclass Reach, Book Copy Circulation Guard, LibraryMember JavaBean & Security Answer Property, and Immutable Loan Receipt & Nightly Circulation Ledger.
 - Organized the Week 5 work under `feature/session_5` with separate `class_problems` and `assigment_problems` packages.
