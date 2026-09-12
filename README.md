@@ -2,6 +2,13 @@
 
 ## Date: 12-09-2026
 **Today's Work:**
+- Added the Week 5 access-modifier and encapsulation practice problems: Movie Ticket Field Visibility Checker, Subclass Ticket Access, Seat Booking Encapsulation Guard, MovieBookingProfile JavaBean & OTP Property, and Immutable Booking Receipt & Nightly Settlement.
+- Added the Week 5 assignment problems: Membership Field Reach Checker, Reference Desk Subclass Reach, Book Copy Circulation Guard, LibraryMember JavaBean & Security Answer Property, and Immutable Loan Receipt & Nightly Circulation Ledger.
+- Organized the Week 5 work under `feature/session_5` with separate `class_problems` and `assigment_problems` packages.
+- Created `feature/session_5` directly from `develop` as required.
+
+## Date: 12-09-2026
+**Today's Work:**
 - Added the Week 4 Category B practice problems: Library Book Cataloguing, Payroll Batch Bonus Round, Late Fees, One-Time College Setup, Many Students, and Account Batch Payments.
 - Added the Week 4 Category B assignment problems: Hackathon Registration, Canteen Inventory Batch Restock, Parking Overstay Fine Calculator, Library Membership Card Setup, and Canteen Closing-Time Payment Dispatch.
 - Organized the Week 4 work under `feature/session_4` with separate `class_problems` and `assigment_problems` packages.
