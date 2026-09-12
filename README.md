@@ -2,6 +2,13 @@
 
 ## Date: 12-09-2026
 **Today's Work:**
+- Added the Week 3 OOP practice problems: Placement Record, Encapsulated Mess-Card Wallet, Overloaded Constructors for a Course, Reference Copies and a Shared ID Card, and Instance vs Static Student.
+- Added the Week 3 assignment problems: Library Book Inventory, Encapsulated Payroll Account, Overloaded Constructors for an Employee, Reference Copies and a Shared Exam Hall Ticket, and Instance vs Static Employee.
+- Organized the Week 3 work under `feature/session_3` with separate `class_problems` and `assigment_problems` packages.
+- Created `feature/session_3` from `develop` as required.
+
+## Date: 12-09-2026
+**Today's Work:**
 - Added the Week 2 live-coding problems: Vowel & Consonant Counter, CSV Student Record Parser, File Extension Validator, Masked Phone Number Formatter, and Bank Transaction Reference Generator & Validator.
 - Added the Week 2 assignment problems: ATM PIN Length Validator, Word Reversal Encoder, Product Inventory CSV Parser, Library ISBN Normalizer & Validator, and Stop-Word-Filtered Word Frequency Report.
 - Organized the Week 2 work under `feature/session_2` with separate `class_problems` and `assigment_problems` packages.
