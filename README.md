@@ -2,6 +2,13 @@
 
 ## Date: 12-09-2026
 **Today's Work:**
+- Added the Week 2 live-coding problems: Vowel & Consonant Counter, CSV Student Record Parser, File Extension Validator, Masked Phone Number Formatter, and Bank Transaction Reference Generator & Validator.
+- Added the Week 2 assignment problems: ATM PIN Length Validator, Word Reversal Encoder, Product Inventory CSV Parser, Library ISBN Normalizer & Validator, and Stop-Word-Filtered Word Frequency Report.
+- Organized the Week 2 work under `feature/session_2` with separate `class_problems` and `assigment_problems` packages.
+- Created `feature/session_2` from `develop` as required.
+
+## Date: 12-09-2026
+**Today's Work:**
 - Added the Week 1 assignment problems: Exam Hall Seat Duplication Checker, Typing Speed Test Accuracy Checker, Traffic Signal Streak Analyzer, Warehouse Inventory Balancer, and Movie Review Word Length Profiler.
 - Organized the assignment work under `feature/session_1` in the required `assigment_problems` sub-package.
 
