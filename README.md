@@ -1,5 +1,11 @@
 ## Date: 10-10-2026
 **Today's Work:**
+- Added Week 8 class problems: Vehicle Rental System, Employee Leave Request Workflow, Online Examination System, Hotel Booking System, and Payment Processing for a Shopping System.
+- Added Week 8 Category B assignment problems: The Hostel Laundry Queue, The Assignment Submission Portal, The Campus Premiere Ticket Counter, The FitZone Membership Desk, and The Campus Notice Broadcaster.
+- Organized Week 8 Java solutions under `src/week8/class_problems` and `src/week8/assigment_problems`.
+
+## Date: 10-10-2026
+**Today's Work:**
 - Added Week 7 Category B assignment solutions: Morning Wake-Up Circuit, Gallery Description Cards, Backyard Toolshed Routine, Digital Classroom Setup, and Skyline Delivery Fleet.
 - Organized the five Java solutions under `src/week7/assigment_problems`.
 
