@@ -9,11 +9,11 @@ abstract class Room {
 }
 class StandardRoom extends Room { StandardRoom(String id) { super(id, 100); } }
 class DeluxeRoom extends Room { DeluxeRoom(String id) { super(id, 180); } }
-class Customer { String name; Customer(String name) { this.name = name; } }
+class HotelCustomer { String name; HotelCustomer(String name) { this.name = name; } }
 class Reservation {
-    Room room; Customer customer; LocalDate start, end; boolean active = true;
+    Room room; HotelCustomer customer; LocalDate start, end; boolean active = true;
     static List<Reservation> all = new ArrayList<>();
-    Reservation(Room room, Customer customer, LocalDate start, LocalDate end) { this.room=room; this.customer=customer; this.start=start; this.end=end; }
+    Reservation(Room room, HotelCustomer customer, LocalDate start, LocalDate end) { this.room=room; this.customer=customer; this.start=start; this.end=end; }
     static boolean available(Room room, LocalDate start, LocalDate end) {
         for (Reservation r : all)
             if (r.active && r.room.id.equals(room.id) && start.isBefore(r.end) && end.isAfter(r.start)) return false;
@@ -34,8 +34,8 @@ class RoomDemo {
     public static void main(String[] args) {
         Room room = new StandardRoom("Standard Room 101");
         LocalDate s=LocalDate.of(2026,1,1), e=LocalDate.of(2026,1,5);
-        Reservation r=Reservation.book(room,new Customer("Customer A"),s,e);
-        Reservation.book(room,new Customer("Customer B"),LocalDate.of(2026,1,3),LocalDate.of(2026,1,7));
+        Reservation r=Reservation.book(room,new HotelCustomer("Customer A"),s,e);
+        Reservation.book(room,new HotelCustomer("Customer B"),LocalDate.of(2026,1,3),LocalDate.of(2026,1,7));
         if(r!=null) r.cancel(LocalDate.of(2025,12,20),LocalDate.of(2025,12,25));
     }
 }
