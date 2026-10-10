@@ -5,8 +5,26 @@ Each week's work is kept on its own feature branch, created from `develop`.
 
 - [Week 7 — `feature/session_7`](https://github.com/suvan011/Step_semester_3/tree/feature/session_7): `src/main/java/week7/class_problems/` and `src/main/java/week7/assigment_problems/`
 - [Week 8 — `feature/session_8_fix`](https://github.com/suvan011/Step_semester_3/tree/feature/session_8_fix): `src/main/java/week8/class_problems/` and `src/main/java/week8/assigment_problems/`
+- [Week 9 — `feature/session_9`](https://github.com/suvan011/Step_semester_3/tree/feature/session_9): `src/main/java/week9/class_problems/` and `src/main/java/week9/assigment_problems/`
 
 Each session branch contains both practice/class problems and assignment problems. Keep new weekly work on its matching `feature/session_N` branch rather than adding source files directly to `main`.
+
+---
+
+## Date: 10-10-2026
+
+**Today's Work:**
+- Added Week 9 practice problems on binary search, 2D array traversal, target-sum pairs, and the container-with-most-water two-pointer algorithm.
+- Added the Week 9 Part B quiz answer key and Part C concept answers from the practice PDF.
+- Added Week 9 Category B assignments: Class Topper Finder, Merging Two Token Queues, Most Popular Canteen Order, Hot Weather Alert Windows, and Ticket Price Slot Finder.
+- Organized Week 9 work under `src/main/java/week9` with separate `class_problems` and `assigment_problems` folders on `feature/session_9`, created from `develop`.
+- Kept Week 9 code on its feature branch; it has not been merged into `develop`.
+
+**Next Session Plan:**
+- Continue with Week 10 on a separate feature branch created from `develop`.
+
+**Issues Faced:**
+- The practice PDF repeats the target-sum problem in Problems 3 and 4, so both are represented as separate solutions.
 
 ---
 
