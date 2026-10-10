@@ -1,3 +1,15 @@
+# Step_semester_3
+
+## Session branch structure
+Each week's work is kept on its own feature branch, created from `develop`.
+
+- [Week 7 — `feature/session_7`](https://github.com/suvan011/Step_semester_3/tree/feature/session_7): `src/main/java/week7/class_problems/` and `src/main/java/week7/assigment_problems/`
+- [Week 8 — `feature/session_8`](https://github.com/suvan011/Step_semester_3/tree/feature/session_8): `src/main/java/week8/class_problems/` and `src/main/java/week8/assigment_problems/`
+
+Each session branch contains both practice/class problems and assignment problems. Keep new weekly work on its matching `feature/session_N` branch rather than adding source files directly to `main`.
+
+---
+
 ## Date: 10-10-2026
 **Today's Work:**
 - Added Week 8 class problems: Vehicle Rental System, Employee Leave Request Workflow, Online Examination System, Hotel Booking System, and Payment Processing for a Shopping System.
