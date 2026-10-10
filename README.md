@@ -1,3 +1,8 @@
+## Date: 10-10-2026
+**Today's Work:**
+- Added Week 7 Category B assignment solutions: Morning Wake-Up Circuit, Gallery Description Cards, Backyard Toolshed Routine, Digital Classroom Setup, and Skyline Delivery Fleet.
+- Organized the five Java solutions under `src/week7/assigment_problems`.
+
 # Step_semester_3
 
 ## Date: 12-09-2026
