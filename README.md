@@ -1,13 +1,31 @@
 # Step_semester_3
 
 ## Session branch structure
-Each week's work is kept on its own feature branch, created from `develop`.
+Each week's work is isolated on its own feature branch and contains only that week's source files.
 
 - [Week 7 — `feature/session_7`](https://github.com/suvan011/Step_semester_3/tree/feature/session_7): `src/main/java/week7/class_problems/` and `src/main/java/week7/assigment_problems/`
 - [Week 8 — `feature/session_8_fix`](https://github.com/suvan011/Step_semester_3/tree/feature/session_8_fix): `src/main/java/week8/class_problems/` and `src/main/java/week8/assigment_problems/`
 - [Week 9 — `feature/session_9`](https://github.com/suvan011/Step_semester_3/tree/feature/session_9): `src/main/java/week9/class_problems/` and `src/main/java/week9/assigment_problems/`
+- [Week 10 — `feature/session_10`](https://github.com/suvan011/Step_semester_3/tree/feature/session_10): `src/main/java/week10/class_problems/` and `src/main/java/week10/assigment_problems/`
 
-Each session branch contains both practice/class problems and assignment problems. Keep new weekly work on its matching `feature/session_N` branch rather than adding source files directly to `main`.
+Keep each week's class/practice problems and assignment problems in that week's folders only. Do not merge weekly code into other session branches.
+
+---
+
+## Date: 10-10-2026
+
+**Today's Work:**
+- Added Week 10 Part A coding problems: Bank Account Withdrawal System, Campus Vehicle Pass System, Student Club Registration Management, Class Marks Grid Analysis, and Payroll Register System.
+- Added the Week 10 Part B quiz answer key and Part C answers to all 10 concept questions from the practice PDF.
+- Added the Week 10 assignment, Cancelled Orders Cleanup, implementing removal of all matching values from a singly linked list without `java.util.LinkedList`.
+- Organized Week 10 in separate `class_problems` and `assigment_problems` folders on `feature/session_10`.
+- Kept the Week 10 branch isolated from all other weeks.
+
+**Next Session Plan:**
+- Continue with Week 11 on its own feature branch.
+
+**Issues Faced:**
+- None.
 
 ---
 
@@ -17,11 +35,11 @@ Each session branch contains both practice/class problems and assignment problem
 - Added Week 9 practice problems on binary search, 2D array traversal, target-sum pairs, and the container-with-most-water two-pointer algorithm.
 - Added the Week 9 Part B quiz answer key and Part C concept answers from the practice PDF.
 - Added Week 9 Category B assignments: Class Topper Finder, Merging Two Token Queues, Most Popular Canteen Order, Hot Weather Alert Windows, and Ticket Price Slot Finder.
-- Organized Week 9 work under `src/main/java/week9` with separate `class_problems` and `assigment_problems` folders on `feature/session_9`, created from `develop`.
-- Kept Week 9 code on its feature branch; it has not been merged into `develop`.
+- Organized Week 9 work under `src/main/java/week9` with separate `class_problems` and `assigment_problems` folders on `feature/session_9`.
+- Kept Week 9 code on its feature branch only.
 
 **Next Session Plan:**
-- Continue with Week 10 on a separate feature branch created from `develop`.
+- Continue with Week 10 on a separate feature branch.
 
 **Issues Faced:**
 - The practice PDF repeats the target-sum problem in Problems 3 and 4, so both are represented as separate solutions.
@@ -37,10 +55,10 @@ Each session branch contains both practice/class problems and assignment problem
 - Merged the Week 8 submission into `develop` via pull request #1.
 
 **Next Session Plan:**
-- Continue with Week 9 problems and create a separate feature branch from `develop`.
+- Continue with Week 9 problems on a separate feature branch.
 
 **Issues Faced:**
-- Week 8 work was added on a clean branch created from `develop` to follow the required branching structure.
+- Week 8 work was added on a clean branch to follow the required branching structure.
 
 ---
 
